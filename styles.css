@@ -1,0 +1,49 @@
+body{
+    background: rgb(214, 206, 206);
+    margin:0;
+}
+
+header{
+    background: rgb(248, 247, 247);
+    padding: 2px;
+}
+
+h1{
+    font-size: 44px;
+    font-style: italic;
+}
+
+.container{
+    width: 500px;
+    margin:0 auto; 
+}  
+
+.post{
+    background: white;
+    margin-top: 20px;
+    box-shadow: 1px 3px 2px;
+}
+
+.post-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.post h2, post span{
+    padding: 15px 15 px;
+    margin:0;
+}
+
+span{      
+    color:rgb(115, 120, 128)
+}
+
+img {
+    width: 100%;    
+}
+
+.post-footer{
+    padding: 5PX;
+}
